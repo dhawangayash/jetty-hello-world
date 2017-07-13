@@ -15,6 +15,8 @@ This was based of the tutorial by [mkyong](https://www.mkyong.com/webservices/ja
 ##### Command to start server
 ```mvn clean install; mvn jetty:run ```
 
+Test the sample server using: ```curl http://localhost:8080/rest/hello/MSG_YOU-WANT-TYPED```
+
 A mini jetty server will start in port `8080`
 
 1. [home-page](http://localhost:8080/)
